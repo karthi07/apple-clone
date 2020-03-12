@@ -1,3 +1,109 @@
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    background-color: transparent;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
+  
+nav {
+    position: relative;
+    z-index: 100;
+    width: 90%;
+    margin: auto;
+    padding-top: 2em ;
+}
+
 ul {
     list-style: none outside;
+    display: flex;
+    margin-top: 0;
+    background-color: gray;
+}
+
+li {
+    flex: 1;
+    color: white;
+    padding: 8px;;
+}
+
+section {
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 20%;
+    right: auto;
+    left: 50%;
+    margin-left: -720px;
+    width: 1440px;
+    height: 800PX;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    background-size: 1440px 1315px;
+
+}
+
+a {
+    color: #08c;
+    height: 0;
+}
+
+#verse {
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: -10px;
+    margin-bottom: -19px;
+}
+
+.title  img {
+    width: 980px;
+    height: 94px;
+    border: 0;
+}
+
+.sub-header{
+    margin-top: 0;
+}
+
+.sub-header img {
+    width: 980px;
+    height: 82px;
+}
+
+.watch{
+    overflow:hidden;
+    height:31px; 
+}
+
+.watch img {
+    width: 980px;
+    display: inline-block;
+}
+
+.watch a {
+    display: inline-block;
+    margin: 0 18px 25px;
+    height: 29px;
+}
+
+.watch a:hover,
+.watch a:active {
+    margin-top:-32px; 
 }
