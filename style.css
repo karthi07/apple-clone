@@ -6,9 +6,12 @@
   }
 
 body{
-    margin: 0;
+    width: 100%;
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     background-color: transparent;
+    min-height: 830px;
+    max-height: 1472px;
+    margin: 0;
 }
 
 main {
@@ -19,8 +22,8 @@ main {
 nav {
     position: relative;
     z-index: 100;
-    width: 90%;
-    margin: auto;
+    width: 70%;
+    margin: 0 auto;
     padding-top: 2em ;
 }
 
@@ -37,21 +40,20 @@ li {
     padding: 8px;;
 }
 
+#header {
+    display: block;
+    width: 100%;
+}
+
 section {
     background-color: lightblue;
     position: absolute;
     top: 0;
-    right: 0;
-    left: 0;
     bottom: 20%;
-    right: auto;
-    left: 50%;
-    margin-left: -720px;
-    width: 1440px;
-    height: 800PX;
+    min-height: 538px;
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
     background-size: 1440px 1315px;
-
+    width: 100%;
 }
 
 a {
