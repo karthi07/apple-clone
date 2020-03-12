@@ -5,6 +5,16 @@
             box-sizing: border-box;
   }
 
+html, body {
+    position: relative;
+    z-index: 1;
+    min-width: 1024px;
+    height: 100%;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
 body{
     width: 100%;
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -13,21 +23,18 @@ body{
     max-height: 1472px;
     margin: 0;
 }
-
-main {
-    position: relative;
-    z-index: 1;
-}
-  
+ 
 nav {
     position: relative;
     z-index: 100;
     width: 70%;
     margin: 0 auto;
-    padding-top: 2em ;
+    top: 18px;
+    margin: 0 auto;
+    height: 36px;
 }
 
-ul {
+nav ul {
     list-style: none outside;
     display: flex;
     margin-top: 0;
@@ -41,8 +48,14 @@ li {
 }
 
 #header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 292px;
+    left: 0;
+    overflow: hidden;
     display: block;
-    width: 100%;
+    margin: 0;
 }
 
 section {
@@ -56,15 +69,45 @@ section {
     width: 100%;
 }
 
+.main-sec {
+    right: auto;
+    left: 50%;
+    margin-left: -720px;
+    width: 1440px;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    background-size: 1440px 1315px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
 a {
     color: #08c;
-    height: 0;
+}
+
+.main_link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: transparent;
+    font-size: 0;
+    line-height: 0;
 }
 
 #verse {
     margin-top: 10%;
     text-align: center;
     font-weight: bold;
+    margin-top: -170px;
+    padding: 50px 0;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_scrim.png) 0 50% repeat-x;
+    background-size: 25px 335px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
 }
 
 .title {
@@ -108,4 +151,56 @@ a {
 .watch a:hover,
 .watch a:active {
     margin-top:-32px; 
+}
+
+.test{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
+.promos {
+    position: absolute;
+    z-index: 1;
+    bottom: 90px;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.promos > ul {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 1024px;
+    width: 100%;
+    max-width: 1440px;
+    height: 200px;
+    text-align: center;
+    list-style: none outside;
+    padding: 0;
+}
+
+.promos > ul > li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    width: 25%;
+    height: 200px;
+    padding: 0;
+    display: list-item;
+    
+
+}
+
+.promos img {
+    width: 364px;
+    height: 200px;
 }
