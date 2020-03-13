@@ -13,7 +13,7 @@ In this project, our aim here wasn’t to produce an replica of the Apple webpag
   * W3C Validator
 
 ## Live demo
-
+https://karthi07.github.io/apple-clone/
 
 ## Getting started
 **For this project, we tried our best to recreate the Apple home page. The main aim is to ensure the elements get placed and styled roughly the same way as the page, so functionality is not a priority.**
