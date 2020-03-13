@@ -76,11 +76,11 @@ footer a {
 .sr-img {
   display: block;
   position: absolute;
+  z-index: 10;
   opacity: 1;
-  width: 15px;
-  height: 14px;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQ…NfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D) no-repeat 0 0;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsI…dDMTAuODMzLDIuMjAxLDguNjMyLDAsNS45MTcsMEw1LjkxNywweiIgLz4KPC9nPgo8L3N2Zz4K);
+  height: 20px;
+  width: 20px;
+  background-image: url(images/search.png);
 }
 
 nav li {
